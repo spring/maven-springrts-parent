@@ -3,13 +3,13 @@
 
 	<parent>
 		<groupId>com.springrts</groupId>
-		<artifactId>common</artifactId>
+		<artifactId>parent</artifactId>
 		<version>1.0</version>
 		<relativePath>../springrts-parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.springrts</groupId>
-	<artifactId>common-spring</artifactId>
+	<artifactId>parent-internal</artifactId>
 	<version>1.0</version>
 
 	<packaging>pom</packaging>
@@ -18,7 +18,7 @@
 		<name>Spring RTS Community</name>
 		<url>http://springrts.com</url>
 	</organization>
-	<name>InternalSpringParent</name>
+	<name>Spring RTS - Internal Parent</name>
 	<description>
 		Parent for engine supplied Maven projects for the Spring RTS game engine,
 		excluding 3rd party plugins

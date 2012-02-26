@@ -19,7 +19,7 @@
 	</parent>
 
 	<groupId>com.springrts</groupId>
-	<artifactId>common</artifactId>
+	<artifactId>parent</artifactId>
 	<version>1.0</version>
 
 	<packaging>pom</packaging>
@@ -28,7 +28,7 @@
 		<maven>2.2.1</maven>
 	</prerequisites>
 
-	<name>CommonSpringParent</name>
+	<name>Spring RTS - Parent</name>
 	<description>
 		Parent for all Maven projects related to the Spring RTS game engine,
 		including 3rd party plugins (eg. Skirmish AIs)
