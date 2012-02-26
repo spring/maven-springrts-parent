@@ -5,7 +5,7 @@
 		<groupId>com.springrts</groupId>
 		<artifactId>common</artifactId>
 		<version>1.0</version>
-		<relativePath>../pom.xml</relativePath>
+		<relativePath>../springrts-parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.springrts</groupId>
