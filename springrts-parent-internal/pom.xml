@@ -4,13 +4,13 @@
 	<parent>
 		<groupId>com.springrts</groupId>
 		<artifactId>parent</artifactId>
-		<version>1.0</version>
+		<version>1.0-SNAPSHOT</version>
 		<relativePath>../springrts-parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.springrts</groupId>
 	<artifactId>parent-internal</artifactId>
-	<version>1.0</version>
+	<version>1.0-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
@@ -28,9 +28,9 @@
 
 
 	<scm>
-		<connection>scm:git:git://github.com/spring/spring.git</connection>
-		<developerConnection>scm:git:git@github.com:spring/spring.git</developerConnection>
-		<url>http://github.com/spring/spring</url>
+		<connection>scm:git:git://github.com/spring/maven-springrts.git</connection>
+		<developerConnection>scm:git:git@github.com:spring/maven-springrts.git</developerConnection>
+		<url>http://github.com/spring/maven-springrts</url>
 	</scm>
 
 
