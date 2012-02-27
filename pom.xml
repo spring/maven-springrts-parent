@@ -28,10 +28,13 @@
 		<maven>2.2.1</maven>
 	</prerequisites>
 
+	<organization>
+		<name>Spring RTS Community</name>
+		<url>http://springrts.com</url>
+	</organization>
 	<name>Spring RTS - Parent</name>
 	<description>
-		Parent for all Maven projects related to the Spring RTS game engine,
-		including 3rd party plugins (eg. Skirmish AIs)
+		Parent for Spring RTS related Maven projects
 	</description>
 	<inceptionYear>2011</inceptionYear>
 
@@ -55,6 +58,13 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+
+
+	<scm>
+		<connection>scm:git:git://github.com/spring/maven-springrts.git</connection>
+		<developerConnection>scm:git:git@github.com:spring/maven-springrts.git</developerConnection>
+		<url>http://github.com/spring/maven-springrts</url>
+	</scm>
 
 
 	<reporting>

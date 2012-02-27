@@ -18,16 +18,11 @@ Projects that may use these files:
 
 ## Use
 
-Configure either of the Maven projects contained in this repo
-as the parent of your own project, if it is related to Spring RTS.
+Configure the Maven projects contained in this repo as the parent
+of your own project, if it is related to Spring RTS.
 
-Which one to use as parent for your project:
-* `springrts-parent`
-	for project somewhat loosely coupled with Spring, maintained by whoever.
-	examples: 3rd party Skirmish AI
-* `springrts-parent-internal`
-	for spring internal projects, usually maintained by the spring engine devs.
-	examples: AI interface & wrapper, unitsync wrapper
+A side effect of this, is that the project is kind of shiftet towards
+being "owned" by the Spring RTS community.
 
 
 ## Release a SNAPSHOT
