@@ -61,9 +61,9 @@
 
 
 	<scm>
-		<connection>scm:git:git://github.com/spring/maven-springrts.git</connection>
-		<developerConnection>scm:git:git@github.com:spring/maven-springrts.git</developerConnection>
-		<url>http://github.com/spring/maven-springrts</url>
+		<connection>scm:git:git://github.com/spring/maven-springrts-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:spring/maven-springrts-parent.git</developerConnection>
+		<url>http://github.com/spring/maven-springrts-parent</url>
 	</scm>
 
 
