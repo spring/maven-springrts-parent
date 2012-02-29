@@ -1,4 +1,4 @@
-# README - Spring RTS Maven support files
+# README - Common parent for Spring RTS related Maven projects
 
 ## Intro
 
