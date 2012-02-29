@@ -36,7 +36,7 @@ To release a development version to the Sonatype snapshot repository only:
 
 ### Prepare "target/" for the release process
 
-	mvn release:clean
+		mvn release:clean
 
 ### Prepare the release
 * asks for the release and new snapshot versions to use (for all modules)
@@ -64,11 +64,11 @@ Moves it from the sonatype staging to the main sonatype repo.
 		mvn nexus:staging-release
 
 2. ... alternatively, using the web-interface:
-	* firefox https://oss.sonatype.org
-	* login
-	* got to the "Staging Repositories" tab
-	* select "com.springrts..."
-	* "Close" it
-	* select "com.springrts..." again
-	* "Release" it
+* firefox https://oss.sonatype.org
+* login
+* got to the "Staging Repositories" tab
+* select "com.springrts..."
+* "Close" it
+* select "com.springrts..." again
+* "Release" it
 
