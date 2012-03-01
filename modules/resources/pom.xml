@@ -3,9 +3,10 @@
 
 	<!-- This is a requirement to be able to sync to Maven central -->
 	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>7</version>
+		<groupId>com.springrts</groupId>
+		<artifactId>parent</artifactId>
+		<version>1.1-SNAPSHOT</version>
+		<relativePath>../..</relativePath>
 	</parent>
 
 	<groupId>com.springrts</groupId>
