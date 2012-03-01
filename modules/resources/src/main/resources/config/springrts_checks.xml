@@ -46,7 +46,7 @@
 
 	<!-- Checks whether files end with a new line.                        -->
 	<!-- See http://checkstyle.sf.net/config_misc.html#NewlineAtEndOfFile -->
-	<!--<module name="NewlineAtEndOfFile"/>-->
+	<!----><module name="NewlineAtEndOfFile"/>
 
 	<!-- Checks that property files contain the same keys.         -->
 	<!-- See http://checkstyle.sf.net/config_misc.html#Translation -->
@@ -121,7 +121,7 @@
 
 		<!-- Checks for imports                              -->
 		<!-- See http://checkstyle.sf.net/config_import.html -->
-		<!--<module name="AvoidStarImport"/>-->
+		<module name="AvoidStarImport"/>
 		<module name="IllegalImport"/> <!-- defaults to sun.* packages -->
 		<module name="RedundantImport"/>
 		<module name="UnusedImports"/>
@@ -131,7 +131,9 @@
 		<!-- See http://checkstyle.sf.net/config_sizes.html -->
 		<!--<module name="LineLength"/>-->
 		<module name="MethodLength"/>
-		<module name="ParameterNumber"/>
+		<module name="ParameterNumber">
+			<property name="tokens" value="METHOD_DEF"/>
+		</module>
 
 
 		<!-- Checks for whitespace                               -->
@@ -199,7 +201,17 @@
 		<!-- See http://checkstyle.sf.net/config_misc.html -->
 		<module name="ArrayTypeStyle"/>
 		<!--<module name="FinalParameters"/>-->
-		<module name="TodoComment"/>
+		<module name="TodoComment">
+			<property name="format" value="FIXME"/>
+		</module>
+		<module name="TodoComment">
+			<property name="format" value="TODO"/>
+			<property name="severity" value="warning"/>
+		</module>
+		<module name="TodoComment">
+			<property name="format" value="XXX"/>
+			<property name="severity" value="warning"/>
+		</module>
 		<module name="UpperEll"/>
 
 	</module>
