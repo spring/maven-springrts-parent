@@ -9,6 +9,7 @@ These files are useless by themselfs, and their main purpose is to unify
 and simplify Java based projects related to Spring RTS.
 
 Projects that may use these files:
+
 * SpringLS
 * JUnitsync
 * Java-AIInterface
@@ -29,7 +30,7 @@ being "owned" by the Spring RTS community.
 
 To release a development version to the Sonatype snapshot repository only:
 
-		mvn clean deploy
+	mvn clean deploy
 
 
 ## Release
